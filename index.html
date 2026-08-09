@@ -313,7 +313,7 @@
       </article>
     </main>
     <footer class="footer">
-      <button class="button save-button" type="button" onclick="window.dialog.showModal()" aria-controls="dialog"> 
+      <button class="button save-button" type="button" aria-controls="dialog"> 
         <svg class="floppy">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
@@ -334,5 +334,10 @@
       </form>
     </dialog>
     <script src="./scripts/like.js"></script>
+    <script>
+      document.querySelector('.save-button').addEventListener('click', () => {
+        document.getElementById('dialog').showModal();
+      });
+    </script>
   </body>
 </html>

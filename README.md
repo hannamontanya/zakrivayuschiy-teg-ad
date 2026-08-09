@@ -1,1 +1,1 @@
-https://hannamontanya.github.io/zakrivayuschiy-teg-ad/
+https://github.com/hannamontanya/zakrivayuschiy-teg-ad

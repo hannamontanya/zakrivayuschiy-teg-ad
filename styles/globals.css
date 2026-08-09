@@ -51,3 +51,15 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+.page {
+  min-inline-size: 375px;
+  min-block-size: 100dvb;
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+  font-family: var(--main-font);
+  font-variation-settings: "wght" var(--main-font-weight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
